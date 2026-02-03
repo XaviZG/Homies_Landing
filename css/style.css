@@ -260,37 +260,12 @@ p { font-size: clamp(1rem, 2vw, 1.125rem); color: var(--color-text-grey); margin
     justify-content: center;
 }
 
-.mvp-video {
-    background: var(--color-bg-grey);
-    border-radius: 20px;
-    padding: 1rem;
+.mvp-shot img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
-
-.mvp-video-inner {
-    aspect-ratio: 16 / 9;
-    background: #0d1b2a;
-    border-radius: 16px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    text-align: center;
-}
-
-.play-button {
-    font-size: 2rem;
-    background: rgba(255,255,255,0.15);
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.video-label { font-weight: 600; }
 
 /* --- 📱 MEDIA QUERIES (AQUÍ OCURRE LA MAGIA MOBILE) --- */
 
